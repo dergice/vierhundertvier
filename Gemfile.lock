@@ -1,3 +1,17 @@
+GIT
+  remote: git://github.com/binarylogic/authlogic.git
+  revision: 7aed570c240bfe1b7e4e1ec6d69a704308779987
+  specs:
+    authlogic (3.1.3)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+
+GIT
+  remote: git://github.com/ryanb/cancan.git
+  revision: 4dcd5445948216bb2796e27c6b78d418993a179f
+  specs:
+    cancan (1.6.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -103,6 +117,8 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  authlogic!
+  cancan!
   coffee-rails (~> 3.2.1)
   jquery-rails
   rails (= 3.2.1)

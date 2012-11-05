@@ -1,3 +1,14 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
-<h1> Yo Gice again </h1>
+<%= yield %>
+
+<!--Ab hier Blog-->
+<% if current_user %>
+<h1>Hello <%= current_user.username %></h1>
+<% else %>
+<h1>Hello Stranger</h1>
+<%end%>
+
+
+
+<%= link_to "My Blog", posts_path %>
+<!--eof Blog-->
+

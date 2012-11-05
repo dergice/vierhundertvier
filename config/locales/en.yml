@@ -3,3 +3,8 @@
 
 en:
   hello: "Hello world"
+  unauthorized:
+    manage:
+      all: "Not authorized to %{action} %{subject}."
+    update:
+      all: "Not allowed to update this project."
